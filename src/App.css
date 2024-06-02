@@ -1,0 +1,245 @@
+/* App.css */
+/*
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.chart {
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+.my-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.my-button:hover {
+  color: #111;
+  background: #18e405;
+  box-shadow: 0 0 50px #39ff14;
+}
+
+@media (max-width: 768px) {
+  .responsive {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-button {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.headings {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .headings {
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headings {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar-button {
+  padding: 10px 15px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-button:hover {
+  background-color: #575757;
+}
+*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.chart {
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .chart {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+.my-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.my-button:hover {
+  color: #111;
+  background: #18e405;
+  box-shadow: 0 0 50px #39ff14;
+}
+
+@media (max-width: 768px) {
+  .responsive {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .my-button {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-button {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
+
+.headings {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .headings {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+}
+
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar-button {
+  padding: 10px 15px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar-button:hover {
+  color: #111;
+        background: #39ff14;
+        box-shadow: 0 0 50px #39ff14;
+}
+
+.chart-container {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    margin-left: 0;
+  }
+}
